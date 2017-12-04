@@ -2,6 +2,10 @@
 A simple python3 library used to communicate with Bittrex.com's HTTP API.
 
 
+## Works, as of 4 december 2017
+
+
+
 ## Dependencies
   This library relies on the library **Requests**. 
   This can be installed by executing:
