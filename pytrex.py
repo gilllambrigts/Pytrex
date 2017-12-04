@@ -102,19 +102,10 @@ def requestURL( parURL, parSign):
 	
 	try:
 		response = requests.get(parURL, headers=customHeaders)
-		return response
+		return response.json()
 	except requests.exceptions.RequestException as e:
 		return e
 		
-	
-def parseResponseJSON(self, parResponse): 
-	json = parResponse.json()
-	items = json['result']
-	
-	for item in items:
-		print(item)
-		print("\n")
-
 		
 		
 class API(object):
