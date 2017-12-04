@@ -504,7 +504,7 @@ Currency = a string literal. For example "BTC" or "ETH"
 
 ```
 
-TODO
+
 
  ## Credits
  * Gill Lambrigts - creator and maintainer of Pytrex.
